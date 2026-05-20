@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Bebby 💜</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BACKGROUND -->
+  <div class="space-bg"></div>
+  <div class="stars"></div>
+  <div class="glow glow1"></div>
+  <div class="glow glow2"></div>
+
+  <!-- MUSIC BUTTON -->
+  <button class="music-btn" id="musicBtn">🎵</button>
+
+  <!-- INTRO -->
+  <section class="hero active" id="hero">
+
+    <div class="hero-content fade-up">
+
+      <p class="tag">made with love for my favorite person ✨</p>
+
+      <h1>
+        Halo ko Bebby!!💜
+      </h1>
+
+      <p class="hero-text">
+        before i ask you something important...
+        <br><br>
+        i wanted to make you a little universe filled with our memories,
+        our love,
+        and all the moments that made these 3 years so special.
+        <br><br>
+        thank you for loving me through every version of myself.
+        <br>
+        thank you for staying.
+      </p>
+
+      <button id="enterBtn" class="primary-btn">
+        enter our universe 🌌
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- MEMORIES -->
+  <section class="memories hidden" id="memories">
+
+    <div class="section-header fade-up">
+      <h2>Our Story</h2>
+      <p>three years of us ♡</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="memory-card fade-up delay1">
+        <div class="memory-image-wrap">
+          <label for="photo1">
+            <img id="preview1" src="assets\yr1.jpg" alt="Year 1">
+            <div class="overlay">click to change photo ✨</div>
+          </label>
+          <input type="file" id="photo1" accept="image/*">
+        </div>
+        <h3>Year One 💜</h3>
+        <p>where everything started.</p>
+      </div>
+
+      <div class="memory-card fade-up delay2">
+        <div class="memory-image-wrap">
+          <label for="photo2">
+            <img id="preview2" src="assets\yr2.jpg" alt="Year 2">
+            <div class="overlay">click to change photo 🌙</div>
+          </label>
+          <input type="file" id="photo2" accept="image/*">
+        </div>
+        <h3>Year Two 🌌</h3>
+        <p>more memories, more love.</p>
+      </div>
+
+      <div class="memory-card fade-up delay3">
+        <div class="memory-image-wrap">
+          <label for="photo3">
+            <img id="preview3" src="assets\yr3.jpg" alt="Year 3">
+            <div class="overlay">click to change photo ✨</div>
+          </label>
+          <input type="file" id="photo3" accept="image/*">
+        </div>
+        <h3>Year Three ⭐</h3>
+        <p>my favorite chapter with you.</p>
+      </div>
+
+    </div>
+
+    <div class="love-letter fade-up">
+
+      <div class="letter-glow"></div>
+
+      <h2>To My Bebby 💌</h2>
+
+      <p>
+        hello baby!
+        <br><br>
+        i know things have been hectic lately and i know we've had our highs and lows,
+        but i would like to take this opportunity to ask you if you could join me for a meal for our 3rd anniversary.
+        <br><br>
+        it's such a big milestone for us because i know you have a thing about 3 years...
+        and for me to breach that curse makes it very special because it's me hehe.
+        <br><br>
+        and i want you to know that even tho there are times where you feel less loved or not loved at all,
+        there was never a moment where my love for you lessened.
+        <br><br>
+        deep down beb, you mean everything and the world to me.
+        thank you for staying, loving me, and growing with me.
+        <br><br>
+        i love you so much.
+        <br><br>
+        happy anniversary 💜
+        <br><br>
+        sincerely,
+        <br>
+        your drei drei &lt;3
+      </p>
+
+      <button id="questionBtn" class="primary-btn">
+        i have something to ask you ♡
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- QUESTION -->
+  <section class="question hidden" id="question">
+
+    <div class="question-card pop-in">
+
+      <div class="heart-orbit"></div>
+
+      <h2>
+        Can I take you out
+        <br>
+        for our anniversary? 💜
+      </h2>
+
+      <p>
+        pretty please?
+      </p>
+
+      <div class="btn-wrap">
+        <button id="yesBtn" class="yes-btn">
+          YES OF COURSE 💖
+        </button>
+
+        <button id="noBtn" class="no-btn">
+          no 😶
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- YES -->
+  <section class="celebration hidden" id="celebration">
+
+    <canvas id="confetti"></canvas>
+
+    <div class="celebration-content zoom-in">
+
+      <div class="big-heart">💜</div>
+
+      <h2>
+        YAYYYYYYY
+      </h2>
+
+      <p>
+        thank you for saying yes bebby 🥹
+        <br><br>
+        i genuinely can't wait to celebrate our 3rd anniversary with you.
+        <br>
+        here's to more late night talks,
+        more memories,
+        more laughs,
+        and more years together.
+      </p>
+
+      <h3>
+        i love you endlessly 🌌
+      </h3>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
